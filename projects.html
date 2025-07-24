@@ -1,56 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Projects | Arslan Ahmad</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description"
+        content="Arslan Ahmad's professional portfolio – showcasing web development projects, live websites, and skills in HTML, CSS, JavaScript, and more." />
+    <meta name="author" content="Arslan Ahmad" />
+    <meta name="keywords"
+        content="Arslan Ahmad, web developer, portfolio, HTML CSS projects, Pakistani developer, frontend developer, SCET, Alfalah, SIMS, Agape" />
+    <title>Arslan Ahmad</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/1803671.png" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
-<body>
-    <header>
-        <h1>Projects</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About ME</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
+
+<body class="d-flex flex-column h-100 bg-light">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top shadow-sm">
+            <div class="container px-5">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="assets/pic.jpg" alt="Profile" width="40" height="40" class="rounded-circle me-2">
+                    <span class="fw-bolder text-primary">Arslan Ahmad</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </header>
-    <section class="projects">
-        <div class="project">
-            <h3>SCET Wah</h3>
-            <p>Official college website for Swedish College of Engineering & Technology.</p>
-            <a href="https://www.scetwah.edu.pk/" target="_blank">Visit Site</a>
+        <!-- Projects Section-->
+        <section class="py-6">
+            <div class="container px-5 mb-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+                        <!-- Project Card 1 - SCET Wah (Live) -->
+                        <div class="card mb-5 shadow border-0 rounded-4 overflow-hidden">
+                            <div class="row g-0">
+                                <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+                                    <h2 class="fw-bold text-center">SCET Wah Website </h2>
+                                    <p class="justify">Developed and managed complete dynamic website for Swedish
+                                        College of Engineering
+                                        and Technology Wah Cantt.</p>
+                                    <a href="https://scetwah.edu.pk" target="_blank"
+                                        class="btn btn-outline-primary btn-sm mt-2">Visit Website</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="assets/projects/scet.PNG" class="img-fluid w-100 h-100 object-fit-cover"
+                                        alt="SCET Project Image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card - SCET LMS Web Portal -->
+                        <div class="card mb-5 shadow border-0 rounded-4 overflow-hidden">
+                            <div class="row g-0">
+                                <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+                                    <h2 class="fw-bold">SCET LMS Web Portal</h2>
+                                    <p>
+                                        Developed a robust Learning Management System (LMS) for
+                                        <strong>Swedish College of Engineering & Technology (SCET), Wah Cantt</strong>
+                                        to digitize and streamline academic workflows across departments.
+                                    </p>
+                                    <p>
+                                        The system consists of <strong>five role-based portals</strong>:
+                                    <ul>
+                                        <li><strong>Admin Panel:</strong> Full control over departments, programs,
+                                            users, and data</li>
+                                        <li><strong>Student Portal:</strong> Attendance, results, document uploads,
+                                            notifications</li>
+                                        <li><strong>Teacher Portal:</strong> Attendance management, internal marks, file
+                                            submissions</li>
+                                        <li><strong>HOD Portal:</strong> Departmental oversight and report verification
+                                        </li>
+                                        <li><strong>Director QEC Portal:</strong> Quality assurance, audits, reporting
+                                        </li>
+                                    </ul>
+                                    </p>
+
+                                    <a href="https://scetlms.pk/" target="_blank"
+                                        class="btn btn-primary btn-sm mt-2">Visit Portal</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="images/projects/scet-lms.jpg"
+                                        class="img-fluid w-100 h-100 object-fit-cover" alt="SCET LMS Portal Screenshot">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Project Card 2 - AGAPE Welfare (Live) -->
+
+                        <div class="card mb-5 shadow border-0 rounded-4 overflow-hidden">
+                            <div class="row g-0">
+                                <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+                                    <h2 class="fw-bold text-center">AGAPE Together </h2>
+                                    <p class="justify">Developed an informative and visually engaging website for AGAPE
+                                        Together — a
+                                        nonprofit initiative promoting education, interfaith harmony, and youth
+                                        development in Pakistan. Focused on SDGs and social causes.</p>
+                                    <a href="https://agapetogether.com" target="_blank"
+                                        class="btn btn-outline-primary btn-sm mt-2">Visit Website</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="assets/projects/agape.PNG" class="img-fluid w-100 h-100 object-fit-cover"
+                                        alt="AGAPE Together Website">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card - Quantum Build Estimates -->
+                        <div class="card mb-5 shadow border-0 rounded-4 overflow-hidden">
+                            <div class="row g-0">
+                                <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+                                    <h2 class="fw-bold text-center">Quantum Build Estimates </h2>
+                                    <p class="justify">Designed and developed a professional website for Quantum Build
+                                        Estimates, a
+                                        U.S.-based construction cost estimation firm. Focused on showcasing services,
+                                        building trust, and improving client conversion through a clean, modern layout.
+                                    </p>
+                                    <a href="https://quantumbuildestimates.com" target="_blank"
+                                        class="btn btn-outline-primary btn-sm mt-2">Visit Website</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="assets/projects/qbe.PNG" class="img-fluid w-100 h-100 object-fit-cover"
+                                        alt="Quantum Build Estimates Website">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Project Card 4 - Simz Medical Supplies (Live) -->
+
+                        <div class="card mb-5 shadow border-0 rounded-4 overflow-hidden">
+                            <div class="row g-0">
+                                <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+                                    <h2 class="fw-bold text-center">Simz Medical Supplies</h2>
+                                    <p class="justify">Developed a clean and responsive e-commerce-style website for
+                                        Simz Medical
+                                        Supplies, featuring essential medical products, categories, and company details.
+                                        Ensured smooth navigation, contact forms, and SEO-friendly structure.</p>
+                                    <a href="https://simzmedicalsupplies.com" target="_blank"
+                                        class="btn btn-outline-primary btn-sm mt-2">Visit Website</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="assets/projects/simz.PNG" class="img-fluid w-100 h-100 object-fit-cover"
+                                        alt="Simz Medical Supplies Website">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Project Card 5 - SIMS Wah (Local) -->
+                        <div class="card mb-5 shadow border-0 rounded-4 overflow-hidden">
+                            <div class="row g-0">
+                                <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+
+                                    <h2 class="fw-bolder text-center">SIMS Wah Website</h2>
+                                    <p class="justify">Designed and developed a complete academic website for
+                                        Swedish Institute of Medical Sciences (SIMS), Wah. It includes detailed
+                                        program listings, admission forms, faculty profiles, contact integration,
+                                        and an intuitive layout to cater to students and staff.</p>
+                                    <span class="badge bg-secondary mt-2">Local Project</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid w-100 h-100 object-fit-cover"
+                                        src="https://dummyimage.com/400x400/343a40/ffffff&text=SIMS+Wah" alt="SIMS Wah">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Project Card 6 - Alfalah Tech Solution (Local) -->
+                        <div class="card mb-5 shadow border-0 rounded-4 overflow-hidden">
+                            <div class="row g-0">
+                                <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+
+                                    <h2 class="fw-bolder text-center">Alfalah Tech Solution</h2>
+                                    <p class="justify">Developed a local business website for Alfalah Tech
+                                        Solutions, showcasing
+                                        their IT and logistics services. The website featured a professional design,
+                                        service breakdown, and contact options aimed at enhancing their digital
+                                        presence.</p>
+                                    <span class="badge bg-secondary mt-2">Local Project</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid w-100 h-100 object-fit-cover"
+                                        src="https://dummyimage.com/300x400/343a40/ffffff&text=Alfalah+Tech"
+                                        alt="Alfalah Tech Solution">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Project Card 7 - Sellsify (Local) -->
+                        <div class="card mb-5 shadow border-0 rounded-4 overflow-hidden">
+                            <div class="row g-0">
+                                <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+
+                                    <h2 class="fw-bolder text-center">Sellsify</h2>
+                                    <p class="justify">Designed and developed a dark-themed IT business website for
+                                        Sellyfy to
+                                        promote tech products, HR solutions, and freight services. The site features
+                                        modern UI/UX, product showcase sections, and responsive layout using
+                                        Bootstrap and custom CSS.</p>
+                                    <span class="badge bg-secondary mt-2">Local Project</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid w-100 h-100 object-fit-cover"
+                                        src="https://dummyimage.com/300x400/343a40/ffffff&text=Sellyfy" alt="Sellsify">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Project Card: H & I Enterprises -->
+                        <div class="card mb-5 shadow border-0 rounded-4 overflow-hidden">
+                            <div class="row g-0">
+                                <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+
+                                    <h2 class="fw-bolder text-center">H & I Enterprises – Website & Portal
+                                    </h2>
+                                    <p class="justify">
+                                        Developed a full-featured website and dual portal (Client & Admin) for a
+                                        real estate company offering residential and commercial plots.
+                                        The portal streamlined client onboarding, land details, and payment
+                                        management.
+                                        Features included client login, installment tracking, and receipt
+                                        generation.
+                                        The domain has expired.
+                                    </p>
+                                    <ul class="mb-0">
+                                        <li><strong>Domain:</strong> <a href="https://handienterprises.pk/"
+                                                target="_blank">https://handienterprises.pk/</a> <span
+                                                class="text-danger">(expired)</span></li>
+                                        <li><strong>Portal:</strong> <a
+                                                href="https://handienterprises.pk/client/Client.php"
+                                                target="_blank">https://handienterprises.pk/client/Client.php</a>
+                                        </li>
+                                        <li><strong>Status:</strong> Expired (Live 2022–2024)</li>
+                                        <li><strong>Type:</strong> Website + Web Portal</li>
+                                        <li><strong>Stack:</strong> HTML, CSS, PHP, MySQL, Bootstrap</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid w-100 h-100 object-fit-cover"
+                                        src="https://dummyimage.com/300x400/343a40/ffffff&text=Handi+Enterprises"
+                                        alt="H & I Enterprises Project" />
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Project Card: AHS Marketing -->
+                        <div class="card mb-5 shadow border-0 rounded-4 overflow-hidden">
+                            <div class="row g-0">
+                                <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+
+                                    <h2 class="fw-bolder text-center">AHS Marketing – Website & Portal</h2>
+                                    <p class="justify">
+                                        Designed and developed the official website and client portal for AHS
+                                        Marketing, a real estate company offering residential and commercial plots.
+                                        The portal included both admin and client access with modules for property
+                                        details, booking status, installment plans, and payment history management.
+                                    </p>
+                                    <ul class="mb-0">
+                                        <li><strong>Domain:</strong> <a href="https://ahsmarketingonline.com/"
+                                                target="_blank">ahsmarketingonline.com</a> <span
+                                                class="text-danger">(expired)</span></li>
+                                        <li><strong>Portal:</strong> <a href="https://ahsmarketingonline.com/portal/"
+                                                target="_blank">ahsmarketingonline.com/portal</a></li>
+                                        <li><strong>Status:</strong> Expired (Live from 2022–2024)</li>
+                                        <li><strong>Type:</strong> Website + Portal</li>
+                                        <li><strong>Tech Stack:</strong> HTML, CSS, PHP, MySQL, Bootstrap</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid w-100 h-100 object-fit-cover"
+                                        src="https://dummyimage.com/300x400/343a40/ffffff&text=AHS+Marketing"
+                                        alt="AHS Marketing Project" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Card: GCCT LMS -->
+                        <div class="card mb-5 shadow border-0 rounded-4 overflow-hidden">
+                            <div class="row g-0">
+                                <div class="col-md-6 d-flex flex-column justify-content-center p-4">
+
+                                    <h2 class="fw-bolder text-center">GCCT LMS – Learning Management System</h2>
+                                    <p class="justify">
+                                        Designed and developed a custom Learning Management System for GCCT with 7
+                                        fully functional role-based portals to automate academic, administrative,
+                                        and financial operations across the institution.
+                                    </p>
+                                    <ul class="mb-0">
+                                        <li><strong>Domain:</strong> <a href="https://lmsgcct.com/"
+                                                target="_blank">lmsgcct.com</a> <span
+                                                class="text-danger">(expired)</span></li>
+                                        <li><strong>Portals:</strong> Admin, Student, Teacher, Parent, Principal,
+                                            Accounts, Inventory</li>
+                                        <li><strong>Status:</strong> Offline (previously live until 2024)</li>
+                                        <li><strong>Tech Stack:</strong> PHP, MySQL, HTML5, CSS3, Bootstrap,
+                                            JavaScript</li>
+                                        <li><strong>Core Features:</strong> Course & exam management, student
+                                            records, attendance, fee module, parent communication, inventory
+                                            tracking, and role-based dashboards</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid w-100 h-100 object-fit-cover"
+                                        src="https://dummyimage.com/300x400/343a40/ffffff&text=GCCT+Portals"
+                                        alt="GCCT LMS Screenshot" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to action section-->
+        <section class="py-5 bg-gradient-primary-to-secondary text-white">
+            <div class="container px-5 my-5">
+                <div class="text-center">
+                    <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
+                    <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer-->
+    <footer class="bg-dark text-white py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0">&copy; Arslan Ahmad 2025. All Rights Reserved.</div>
+                </div>
+                <div class="col-auto d-flex justify-content-center fs-2 gap-4 resumefooter">
+                    <a class="text-gradient" href="https://github.com/ArslanAhmad60" target="_blank"><i
+                            class="bi bi-github"></i></a>
+                    <a class="text-gradient" href="https://www.linkedin.com/in/arslan-ahmad-99bb70147/"
+                        target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a class="text-gradient" href="https://wa.me/923165903307" target="_blank"><i
+                            class="bi bi-whatsapp"></i></a>
+                </div>
+                <div class="col-auto">
+                    <a class="link-light small text-decoration-none me-3" href="#top">Back to Top</a>
+
+                </div>
+            </div>
         </div>
-        <div class="project">
-            <h3>Agape Together</h3>
-            <p>NGO site focused on children's education and poverty alleviation in Pakistan.</p>
-            <a href="https://agapetogether.com/" target="_blank">Visit Site</a>
-        </div>
-        <div class="project">
-            <h3>SIMS</h3>
-            <p>Medical Sciences Institute website. Currently hosted locally.</p>
-            <span>Preview on request</span>
-        </div>
-        <div class="project">
-            <h3>Alfalah Holdings LLC</h3>
-            <p>Freight forwarding & logistics company site. Local version only.</p>
-            <span>Preview on request</span>
-        </div>
-        <div class="project">
-            <h3>Sellyfy</h3>
-            <p>IT, HR & Logistics services website under development. Local version only.</p>
-            <span>Preview on request</span>
-        </div>
-        <div class="project">
-            <h3>Simz Medical Supplies</h3>
-            <p>Medical equipment supply business site.</p>
-            <a href="https://simzmedicalsupplies.com/" target="_blank">Visit Site</a>
-        </div>
-        <div class="project">
-            <h3>Quantum Build Estimates</h3>
-            <p>Construction estimation and building services site.</p>
-            <a href="https://quantumbuildestimates.com/" target="_blank">Visit Site</a>
-        </div>
-    </section>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
